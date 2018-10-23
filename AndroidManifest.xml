@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.paad.GREVocab"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:debuggable="true">
+        <activity android:label="@string/app_name" android:name=".GREVocab">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="About Us" android:name=".mydev" class=".mydev" />
+        <activity android:label="Wordlist A" android:name=".a" class=".a" />
+        <activity android:label="Wordlist B" android:name=".b" class=".b" />
+        <activity android:label="Wordlist C" android:name=".c" class=".c" />
+        <activity android:label="Wordlist DE" android:name=".de" class=".de" />
+        <activity android:label="Wordlist F" android:name=".f" class=".f" />
+    </application>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-sdk android:minSdkVersion="7" />
+</manifest>

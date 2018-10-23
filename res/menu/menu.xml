@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/credits" android:textStyle="bold" android:id="@id/develop" android:title="Developers" />
+    <item android:icon="@drawable/settings" android:textStyle="bold" android:id="@id/setting" android:title="Settings">
+        <menu>
+            <item android:id="@id/submenu1" android:title="Black" />
+            <item android:id="@id/submenu2" android:title="Red" />
+            <item android:id="@id/submenu3" android:title="Cyan" />
+            <item android:id="@id/submenu4" android:title="Magenta" />
+            <item android:id="@id/submenu5" android:title="Green" />
+            <item android:id="@id/submenu6" android:title="Purple" />
+            <item android:id="@id/submenu7" android:title="Blue" />
+            <item android:id="@id/submenu8" android:title="Yellow" />
+            <item android:id="@id/submenu9" android:title="Violet" />
+            <item android:id="@id/submenu10" android:title="Chocolate" />
+            <item android:id="@id/submenu11" android:title="Orange" />
+            <item android:id="@id/submenu12" android:title="Lemon" />
+            <item android:id="@id/submenu13" android:title="Gray" />
+            <item android:id="@id/submenu14" android:title="Pale White" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/faq" android:textStyle="bold" android:id="@id/fact" android:title="FAQ" />
+    <item android:icon="@drawable/exit" android:textStyle="bold" android:id="@id/quit" android:title="Exit" />
+    <item android:icon="@drawable/info" android:textStyle="bold" android:id="@id/inf" android:title="Information">
+        <menu>
+            <item android:id="@id/sub1" android:title="A" />
+            <item android:id="@id/sub2" android:title="B" />
+            <item android:id="@id/sub3" android:title="C" />
+            <item android:id="@id/sub4" android:title="DE" />
+            <item android:id="@id/sub5" android:title="F" />
+            <item android:id="@id/sub6" android:title="GHI" />
+            <item android:id="@id/sub7" android:title="JKL" />
+            <item android:id="@id/sub8" android:title="MNO" />
+            <item android:id="@id/sub9" android:title="PQRS" />
+            <item android:id="@id/sub10" android:title="TUVWXYZ" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/feed" android:textStyle="bold" android:id="@id/feedback" android:title="Feedback" />
+</menu>

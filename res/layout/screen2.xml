@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/test_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon" />
+    <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="#ff00ffff" android:layout_gravity="center" android:id="@id/txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GREVocab v1.3" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Developed By: \n Debasis Kar \n Roopali Sahoo \n (Students Of LPU-CSE(Hons))\n" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/txt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mentors: \n Er. Abhishek Vaid \n Dr. Shankar Srivatsa\n" />
+    <Button android:layout_gravity="center" android:id="@id/btnClick2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thank You...Go Back!!!" android:layout_alignParentBottom="true" />
+</LinearLayout>
